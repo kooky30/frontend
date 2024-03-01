@@ -1,0 +1,99 @@
+#intro {
+    height: calc(200vh - 5rem);
+    width: 100vw;
+    max-width: 90rem;
+    margin: 5rem auto;
+    overflow: hidden;
+    position: relative;
+    object-fit: contain;
+    justify-content: center;
+}
+
+.bg {
+    position:absolute;
+    top: -4rem;
+    right: 0;
+    object-fit: cover;
+    height: 90vh;
+}
+
+.profile {
+    position: relative;
+    justify-content: center;
+    top: -4rem;
+    right: 5;
+    z-index: -1;
+    object-fit:fill;
+    height: 50vh;
+    display: flex;
+}
+
+.introContent {
+    height: 200;
+    margin-top: 50;
+    max-width: 85vw;
+    padding: 10rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.Welcome {
+    font-size: 2rem;
+    font-weight: 500;
+    color: black;
+}
+
+.introName {
+    color: red;
+}
+
+
+.introPara {
+    font-size: large;
+    font-weight: 500 bold;
+    color: red;
+    margin: 1rem 2;
+    word-spacing: 2ch;
+}
+.introText {
+    color: black;
+}
+
+.btn {
+    background:black;
+    color: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.btnImg {
+    object-fit: absolute;
+    margin: 1 0.25rem;
+    height: 1rem;
+}
+
+@media screen and (max-width:480px) {
+    .bg {
+        right: -10vw
+
+    }
+    .introContent {
+        font-size: 10vw;
+    }
+    .Welcome {
+        font-size: 4.5vw;
+
+    }
+    
+}
+
+@media screen and (max-width:480px) {
+    .bg {
+        right: -10vw
+    }   
+}

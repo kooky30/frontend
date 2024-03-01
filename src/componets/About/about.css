@@ -1,0 +1,93 @@
+#skills {
+    overflow: hidden;
+    width: 100vw;
+    margin: 5rem auto;
+    max-width: 90rem;
+    max-width: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+}
+.skill {
+    position: relative;
+    object-fit: contain;
+}
+
+.skillTitle {
+    width: 100vw;
+    max-width: 60rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem auto; 
+    color: black; 
+}
+.skillDesc {
+    text-align:center;
+    position:relative;
+    font-weight: 2rem;
+    max-width: 100rem;
+    padding: 2rem;
+    margin: 2rem auto;
+    color: black;
+}
+
+.skill {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: center;
+    size: 50rem;
+    padding: 0%;
+}
+
+ .skillsImg {
+    object-fit:cover; 
+    height: 30rem; 
+    width: 30rem; 
+    margin: 0.5rem; 
+    border-radius: 100%; 
+    display: flex;
+    align-items: middle;
+    justify-content: space-between;
+}
+
+.skillsImgs {
+    object-fit:cover; 
+    height: 30rem; 
+    width: 30rem; 
+    margin: 0.5rem; 
+    border-radius: 100%; 
+    display: flex;
+    align-items: middle;
+    justify-content: space-between;
+
+}
+
+.skillsText {
+    font-size: 0.9rem;
+    font-weight: 200;
+    color: black;
+}
+
+@media screen and (max-width: 720px) {
+    .skillsText>p  {
+        font-size: 2vw;
+    }   
+}
+
+@media screen and (max-width: 480px) {
+    .skillsText>p  {
+        font-size: 3vw;
+    }   
+    .skillsImg{
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    .skillsTex>h2{
+        font-size: 5vw;
+    }
+}
